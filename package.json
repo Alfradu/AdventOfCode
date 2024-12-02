@@ -1,0 +1,30 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "aoc2023",
+  "main": "index.js",
+  "scripts": {
+    "day": "node index.js -day ",
+    "day-part2": "node index.js -part2 -day ",
+    "day-notest": "node index.js -notest -day ",
+    "day-notest-part2": "node index.js -notest -part2 -day ",
+    "getInput": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfradu/AdventOfCode2023.git"
+  },
+  "keywords": [
+    "aoc2023"
+  ],
+  "author": "Alfred Radu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfradu/AdventOfCode2023/issues"
+  },
+  "homepage": "https://github.com/Alfradu/AdventOfCode2023#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.0"
+  }
+}
